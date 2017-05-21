@@ -23,8 +23,8 @@ import flask_velox  # noqa
 
 
 # Project details
-project = u'Flask-Velox'
-copyright = u'2014, Soon London Ltd'
+project = 'Flask-Velox'
+copyright = '2014, Soon London Ltd'
 version = version
 release = version
 

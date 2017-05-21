@@ -154,7 +154,7 @@ class ContextMixin(object):
         context = self.get_context()
 
         if subject:
-            context = dict(context.items() + subject.items())
+            context = dict(list(context.items()) + list(subject.items()))
             self._context = context
 
         return context
